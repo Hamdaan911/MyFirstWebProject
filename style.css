@@ -1,0 +1,117 @@
+body {
+  background-color: #e5ecec;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+#journal-container {
+  width: 80%;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ddd;
+  padding: 20px;
+  border: 1px solid #c1e8ea;
+}
+#header {
+  background-color: #a6e9ed;
+  padding: 12px 24px 8px 24px;
+  border-radius: 9px 9px 0 0;
+  text-align: right;
+  position: relative;
+}
+#header h1 {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #41b8cd;
+  font-size: 2.1em;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 1px;
+}
+.subtitle {
+  color: #589ea8;
+  font-size: 1em;
+}
+
+.main-content {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+#friends-box {
+  background-color: #a6e9ed;
+  border: 3px solid #41b8cd;
+  padding: 12px;
+  min-width: 150px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 1em;
+  flex-shrink: 0;
+  height: fit-content;
+}
+#friends-box h2 {
+  margin: 0 0 8px 0;
+  font-weight: 500;
+  color: #3892a2;
+  font-size: 1.2em;
+}
+#friends-box ul {
+  margin: 0;
+  padding-left: 16px;
+  text-align: left;
+  list-style-type: disc;
+}
+#friends-box li {
+  color: #0d767c;
+  margin-bottom: 4px;
+}
+#journal-entries {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.entry {
+  border: 2px solid #c1e8ea;
+  background: #f7fbfb;
+  border-radius: 5px;
+  margin-bottom: 0;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+}
+.entry-header {
+  font-size: 1.15em;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #41b8cd;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.entry-date {
+  color: #3892a2;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-right: 5px;
+}
+.entry-title {
+  color: #41b8cd;
+  font-weight: bold;
+}
+.entry-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.entry-text {
+  color: #6e878a;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.35em;
+  flex: 1;
+}
+.entry-image {
+  width: 90px;
+  margin-left: 20px;
+  border-radius: 3px;
+  box-shadow: 0 1px 6px #dadada;
+}
