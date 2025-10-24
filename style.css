@@ -1,0 +1,158 @@
+body {
+  background-color: #e5ecec;
+  background-image: url('https://www.transparenttextures.com/patterns/bright-squares.png');
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#journal-container {
+  width: 780px;
+  margin: 30px auto;
+  background-color: white;
+  border: 5px solid #c1e8ea;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#header {
+  background:linear-gradient(#bfeff1,#b3e6e9);
+  text-align: right;
+  border-bottom: 2px solid rgba(65,184,205,0.25);
+}
+
+#header h1 {
+  color: #2f9da3;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #3f8f93;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 4px 0 0 0;
+}
+
+.content-wrapper {
+  display: flex;
+  padding: 10px 15px 20px 15px;
+  gap: 15px;
+}
+
+.date-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* aligns dotted line under date text */
+}
+
+#friends-box {
+  background: #7de0e3;
+  border: 3px solid #21a6aa;
+  padding: 10px;
+  width: 200px;              
+  height: auto;
+  align-self: flex-start;
+}
+
+
+#friends-box h2 {
+  color: #226b8a;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+
+#friends-box ul {
+  margin: 0;
+  padding-left: 18px;
+  list-style-type: none;    
+}
+
+#friends-box li {
+  white-space: nowrap;      
+  overflow: visible;
+  font-size: 15px;
+  margin: 6px 0;
+}
+
+#friends-box li:nth-child(odd) {
+  color: #b21f1f;           
+  font-weight: 600;
+}
+#friends-box li:nth-child(even) {
+  color: #ffffff;          
+  font-weight: 600;
+}
+
+/* Journal entries */
+#journal-entries {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.entry {
+  background-color: #f7fbfb;
+  border: 2px solid #c1e8ea;
+  padding: 10px 15px;
+}
+
+.entry-text {
+  color: #b21f1f;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.entry-divider {
+  width: 110px; 
+  border-bottom: 3px dotted #003366;
+  margin-top: 2px;
+}
+
+.entry-header {
+  color: #41b8cd;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.entry-date {
+  color: #2a7d83;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.entry-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.entry-body p {
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  text-align: justify;
+}
+
+.entry-image {
+  width: 80px;
+  height: auto;
+  align-self: center;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.entry-title {
+  color: #41b8cd;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 6px;
+}
